@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- MENU HEADER -->
+     <div class="contenedor-encabezado">
+        <header>
+            <div class="logo">
+                <a href="#">JLL</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio">INCIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#portfolio">PORTAFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+
+
+    <!-- SECCIÓN INICIO-->
+     <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="./assets/foto-fondo.jpg" alt="hombre-informatico-img">
+            </div>
+            <h1>Jheremi Alexander</h1>
+            <h2>Desarrollador Full Stack - Técnico UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- SOBRE MÍ -->
+     <section id="sobremi" class="sobre-mi">
+         <div class="contenedor-personal">
+            <h2>SOBRE MÍ</h2>
+            <p><span>Hola, soy Jheremi Alexander </span>un apasionado del mundo tech. Desde que era joven siempre me había preguntado como o quien crea las páginas web, y ahora soy uno de ellos, uno que será capaz de crear numerosas aplicaciones web. Y sobre todo aprender diferentes tecnologias para poder aplicarlas en mi día a día.</p>
+            <p>Por otro lado, soy un apasionado de los videojuegos y de la música, donde de vez en cuando, dedico mi tiempo de ocio a ser "DJ" o un intento de ello. También dedico mi tiempo a mi familia y poder dsifrutar de ellos dentro de lo posible. Por ultimo, destaco que soy un hombre que cree que el esfuerzo es el mérito de nuestro éxito.</p>
+
+            
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            09-02-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            6588894952
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            12345 San Antonio, España
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ejercicio-practico@gmail.com
+                        </li>
+                        <li>
+                            <strong>Ocupación</strong>
+                            <span>DESALLORADOR</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Datos de interes -->
+                 <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dog"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-circle-down"></i>
+                <span class="overlay"></span>
+            </button>
+         </div>
+     </section>
+
+
+    <!-- SECCIÓN PORTFOLIO -->
+     <section id="portfolio" class="portfolio">
+        <div class="contenedor-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./assets/proyecto1.jpg" alt="foto-proyecto1">
+                    <div class="overlay">
+                        <h3>App Note</h3>
+                        <p>Notificaciones</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/proyecto3.webp" alt="logistica-app">
+                    <div class="overlay">
+                        <h3>App Logistica Paquetes</h3>
+                        <p>Docker</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/calculator.jpg" alt="calculadora-proyecto2">
+                    <div class="overlay">
+                        <h3>App Calculadora</h3>
+                        <p>Cálculo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/proyecto4.webp" alt="visualizador-img-proyecto4">
+                    <div class="overlay">
+                        <h3>App Generator Slides Image</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- SECCIÓN CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenedor-contacto">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- FORMULARIO -->
+                 <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Correo Electrónico">
+                    <textarea name="name" id="" cols="30" row="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                 </div> 
+            </div>
+        </div>
+     </section>
+
+
+    <!-- FOOTER -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-solid fa-copyright"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <h3>Copyright ©</h3><p>Realizado por Jheremi Alexander</p>
+        </div>
+     </footer>
+</body>
+</html>
